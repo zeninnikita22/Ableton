@@ -1,0 +1,368 @@
+html {
+}
+
+/* *,
+*:before,
+*:after {
+  box-sizing: inherit;
+} */
+
+body {
+  margin: 0;
+  font-family: "Futura PT", "Times New Roman";
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+/* .header {
+} */
+.main-nav {
+  border-bottom: 2px solid #e7e5e0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.main-nav ul {
+  list-style-type: none;
+  margin: 21px 21px 25px 0px;
+  padding: 0;
+  width: 100%;
+}
+
+.main-nav li {
+  float: left;
+  padding: 0 20px;
+}
+
+.main-nav li a {
+  display: block;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.main-nav li #main-nav-more {
+  display: block;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.main-nav-more-list {
+  font-size: 1.3rem;
+  color: rgb(240, 108, 52);
+  cursor: pointer;
+}
+
+.main-nav li #main-nav-try {
+  display: block;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: rgb(46, 17, 210);
+  float: right;
+}
+
+.main-nav li #main-nav-login {
+  display: block;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  float: right;
+  padding-top: 3px;
+}
+
+.main-nav-more-button {
+  display: flex;
+  font-size: 1.3rem;
+  color: rgb(240, 108, 52);
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Futura PT", "Times New Roman";
+}
+
+#logo-link {
+  width: 65px;
+  height: 28px;
+  margin: 20px 20px 21px 40px;
+}
+
+#logo {
+  width: 65px;
+  height: 28px;
+}
+
+#more-symbol {
+  font-size: 1.5rem;
+  margin-left: 5px;
+}
+
+/* .dropout-nav-wrapper {
+} */
+
+.dropout-nav {
+  display: none;
+  margin: 0px 40px 70px 40px;
+}
+
+.dropout-nav-first-div {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dropout-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropout-nav ul li {
+  padding: 0 40px 0 0;
+}
+
+.dropout-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Futura PT Book";
+  /* font-weight: 200; */
+  font-size: 1.2rem;
+}
+
+#dropout-nav-row-1-h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+#dropout-nav-row-2-h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 40px 0px 20px 0px;
+}
+
+.sticky-nav {
+  position: sticky;
+  z-index: 1;
+  background-color: white;
+  opacity: 90%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 61px;
+  transition: transform, 0.2s;
+  z-index: 99;
+}
+
+.sticky-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sticky-nav ul li {
+  float: left;
+  padding: 20px 20px;
+}
+
+.sticky-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.main {
+}
+.title-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/Ableton_Images/header.jpg");
+  background-size: contain;
+  height: 457px;
+  width: 1067px;
+  margin: 0 auto 67px auto;
+  color: #fa5725;
+  font-size: 8.5rem;
+  font-weight: 500;
+}
+
+.wrapper-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  margin: 40px 0px 107px 0px;
+  max-width: 640px;
+  font-family: "Futura PT";
+}
+
+.text h1 {
+  font-weight: 400;
+  margin-bottom: 21px;
+}
+
+.text p {
+  font-family: "Futura PT";
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.text-link {
+  text-decoration: none;
+}
+.illustration {
+}
+
+.illustration1-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0fr 0fr 1fr 1fr 1fr 1fr 0fr 0fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.illustration1-background {
+  background: #fbffa7;
+  width: 747px;
+  height: 747px;
+  grid-area: 2 / 5 / 8 / 11;
+  z-index: 0;
+}
+.illustration1-image-one {
+  grid-area: 3 / 2 / 7 / 6;
+  z-index: 1;
+}
+.illustration1-image-two {
+  grid-area: 4 / 7 / 6 / 10;
+  z-index: 2;
+  margin-left: 32px;
+}
+.illustration1-image-one img {
+  width: 533px;
+  height: 533px;
+}
+.illustration1-image-two img {
+  width: 427px;
+  height: 320px;
+  margin-bottom: 50px;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-video {
+  margin-top: 7px;
+  padding-left: 311px;
+  font-size: 0.9rem;
+}
+
+.illustration2-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  justify-items: center;
+  align-items: center;
+}
+
+.illustration2-background {
+  background-color: #b6ffc0;
+  width: 747px;
+  height: 960px;
+  grid-area: 1 / 1 / 10 / 7;
+  z-index: 0;
+}
+
+.illustration2-image1 img {
+  width: 427px;
+  height: 320px;
+}
+
+.illustration2-image2 img {
+  width: 427px;
+  height: 320px;
+}
+
+.illustration2-image3 img {
+  width: 533px;
+  height: 533px;
+}
+
+.illustration2-image1 {
+  grid-area: 2 / 2 / 5 / 5;
+  z-index: 1;
+}
+
+.illustration2-image2 {
+  grid-area: 6 / 2 / 9 / 5;
+  z-index: 1;
+}
+
+.illustration2-image3 {
+  grid-area: 3 / 6 / 8 / 11;
+  z-index: 1;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 1067px;
+  height: 600px;
+}
+.illustration3-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.illustration3-background {
+  background-color: #d5b3ff;
+  width: 853px;
+  height: 747px;
+  grid-area: 1 / 4 / 8 / 10;
+  z-index: 0;
+}
+
+.illustration3-image1 img {
+  width: 427px;
+  height: 320px;
+}
+.illustration3-image2 img {
+  width: 533px;
+  height: auto;
+}
+.illustration3-image1 {
+  grid-area: 3 / 2 / 6 / 6;
+  z-index: 1;
+}
+.illustration3-image2 {
+  grid-area: 2 / 8 / 7 / 13;
+  z-index: 1;
+}
+.final-text {
+}
+.footer {
+}
+.footer__logo {
+}
+.footer__row {
+}
+.footer__nav {
+}
