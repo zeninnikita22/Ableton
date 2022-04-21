@@ -27,7 +27,7 @@ body {
 }
 .main-nav ul {
   list-style-type: none;
-  margin: 21px 21px 25px 0px;
+  margin: 21px 21px 17px 0px;
   padding: 0;
   width: 100%;
 }
@@ -90,7 +90,7 @@ body {
 #logo-link {
   width: 65px;
   height: 28px;
-  margin: 20px 20px 21px 40px;
+  margin: 22px 21px 20px 40px;
 }
 
 #logo {
@@ -180,12 +180,13 @@ body {
 }
 
 .main {
+  margin-bottom: 73px;
 }
 .title-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/Ableton_Images/header.jpg");
+  background-image: url("/Ableton/Ableton_Images/header.jpg");
   background-size: contain;
   height: 457px;
   width: 1067px;
@@ -220,6 +221,7 @@ body {
 
 .text-link {
   text-decoration: none;
+  color: #0000ff;
 }
 .illustration {
 }
@@ -329,7 +331,7 @@ body {
 }
 .illustration3-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .illustration3-background {
@@ -356,13 +358,238 @@ body {
   grid-area: 2 / 8 / 7 / 13;
   z-index: 1;
 }
+
+.illustration4-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "pic1 pic1 pic1 pic2 pic2 pic2"
+    "pic1 pic1 pic1 pic2 pic2 pic2"
+    "pic1 pic1 pic1 pic2 pic2 pic2"
+    "pic1 pic1 pic1 pic2 pic2 pic2"
+    "pic1 pic1 pic1 . . .";
+}
+
+.illustration4-image1 img {
+  width: 533px;
+  height: 640px;
+}
+.illustration4-image1 {
+  grid-area: pic1;
+  justify-self: end;
+  align-self: center;
+}
 .final-text {
+  background-color: #b1c5ff;
+  width: 533px;
+  height: 533px;
+  grid-area: pic2;
+  justify-self: start;
+  align-self: center;
+  margin-top: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.final-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  max-height: 282p;
+}
+.final-text-wrapper h1 {
+  font-weight: 400;
+  font-size: 1.9rem;
+}
+
+.final-text-link {
+  text-decoration: none;
+  color: #0000ff;
 }
 .footer {
+  border-top: 2px solid #e7e5e0;
+  padding-left: 107px;
+  padding-right: 107px;
 }
 .footer__logo {
+  margin-top: 107px;
+  margin-bottom: 64px;
+  font-size: 4rem;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Area1 Area2 Area3"
+    "Area4 Area5 Area6";
+  row-gap: 64px;
 }
 .footer__row {
 }
+
+.footer__row ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.footer__row ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Futura PT Book";
+  /* font-weight: 200; */
+  font-size: 1.2rem;
+}
+
+.footer__row ul li {
+  padding: 3px 0px;
+}
+
+.footer__row p {
+  color: black;
+  font-family: "Futura PT";
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#email {
+  background-color: #e7e7e7;
+  color: rgb(144, 141, 141);
+  font-family: "Futura PT";
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: none;
+  width: 70%;
+  padding: 10px;
+}
+
+#submit {
+  background-color: #0000ff;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-family: "Futura PT";
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+}
+
+#footer__signup-paragraph {
+  text-decoration: none;
+  color: black;
+  font-family: "Futura PT Book";
+  /* font-weight: 200; */
+  font-size: 1.2rem;
+}
+
+.social-list {
+  display: flex;
+}
+.social {
+  margin-right: 10px;
+}
+.social img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.footer__register {
+  grid-area: Area1;
+}
+.footer__register ul {
+  list-style-type: none;
+  /* margin: 0;
+  padding: 0; */
+  width: 100%;
+}
+
+.footer__register ul li a {
+}
+
+.footer__education {
+  grid-area: Area2;
+}
+.footer__signup {
+  grid-area: Area3;
+}
+.footer__community {
+  grid-area: Area4;
+}
+.footer__distributors {
+  grid-area: Area5;
+}
+.footer__language {
+  grid-area: Area6;
+}
+
+#language {
+  width: 117px;
+  height: 30px;
+  padding-left: 5px;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-family: "Futura PT";
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+#location {
+  width: 200px;
+  height: 30px;
+  padding-left: 5px;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-family: "Futura PT";
+  font-size: 0.8rem;
+  font-weight: 500;
+}
 .footer__nav {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.footer__nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.footer__nav ul li {
+  padding-right: 10px;
+  display: inline;
+}
+
+.footer__nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+.footer__nav ul li p {
+  display: block;
+  float: right;
+  margin: 0;
+  margin-right: 15px;
+  /* padding-right: 20px; */
+}
+.footer__logo-small {
+  display: block;
+  float: right;
+}
+.footer__logo-small img {
+  width: 45px;
+  height: 21px;
 }
