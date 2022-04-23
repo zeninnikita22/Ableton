@@ -34,6 +34,7 @@ body {
   margin-right: 1.63rem;
   font-size: 1.13rem;
   line-height: 1.63rem;
+  font-weight: 500;
 }
 .menu__right {
   float: right;
@@ -60,7 +61,7 @@ body {
   font-size: 2.63rem;
   line-height: 3.25rem;
   font-weight: 700;
-  max-width: 37.5rem;
+  width: 37.5rem;
   letter-spacing: -0.4px;
   color: #1e0e62;
 }
@@ -78,6 +79,15 @@ body {
   min-width: 20.25rem;
   border: 2px solid #ebeaed;
   border-radius: 6.25rem;
+  /* color: rgba(21, 20, 57, 0.4);
+  font-size: 1.25rem;
+  line-height: 1.63rem;
+  /* font-family: "DM Sans"; */
+  /* font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500; */ */
+}
+#signin__form__email::placeholder {
   color: rgba(21, 20, 57, 0.4);
   font-size: 1.25rem;
   line-height: 1.63rem;
@@ -86,12 +96,15 @@ body {
   font-style: normal;
   font-weight: 500;
 }
+
 #signin__form__password {
   margin-bottom: 1.99rem;
   padding: 1.13rem 1rem;
   min-width: 20.25rem;
   border: 2px solid #ebeaed;
   border-radius: 6.25rem;
+}
+#signin__form__password::placeholder {
   color: rgba(21, 20, 57, 0.4);
   font-size: 1.25rem;
   line-height: 1.63rem;
