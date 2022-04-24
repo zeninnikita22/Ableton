@@ -4,9 +4,8 @@ html {
 
 body {
   margin: 0 auto;
-  width: 87.5rem;
-  height: 55rem;
-  border: 1px solid red;
+  max-width: 87.5rem;
+  max-height: 55rem;
   /* max-width: 1172px; */
 }
 
@@ -14,13 +13,20 @@ body {
   padding: 4.19rem 7.19rem 9.19rem 7.19rem;
 }
 .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons__left {
+}
+.buttons__right {
 }
 .menu__first {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 700;
   color: #1e0e62;
-  margin-right: 2rem;
+  margin-right: 2.56rem;
 }
 .menu__button {
   background: none;
@@ -35,6 +41,30 @@ body {
   font-size: 1.13rem;
   line-height: 1.63rem;
   font-weight: 500;
+}
+.menu__button__pricing {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  color: rgba(21, 20, 57, 0.4);
+  margin-right: 0.19rem;
+  font-size: 1.13rem;
+  line-height: 1.63rem;
+  font-weight: 500;
+}
+
+.fa-angle-down {
+  color: rgba(21, 20, 57, 0.4);
+  margin-right: 1.38rem;
+  cursor: pointer;
+}
+
+.menu__API {
+  margin-left: 24rem;
 }
 .menu__right {
   float: right;
@@ -85,7 +115,7 @@ body {
   /* font-family: "DM Sans"; */
   /* font-family: "DM Sans";
   font-style: normal;
-  font-weight: 500; */ */
+  font-weight: 500; */
 }
 #signin__form__email::placeholder {
   color: rgba(21, 20, 57, 0.4);
