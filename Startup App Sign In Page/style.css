@@ -4,8 +4,8 @@ html {
 
 body {
   margin: 0 auto;
-  max-width: 87.5rem;
-  max-height: 55rem;
+  width: 87.5rem;
+  height: 55rem;
   /* max-width: 1172px; */
 }
 
