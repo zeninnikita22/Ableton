@@ -17,10 +17,6 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.buttons__left {
-}
-.buttons__right {
-}
 .menu__first {
   text-decoration: none;
   font-size: 1.5rem;
@@ -100,8 +96,6 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 29.38rem;
-  /* justify-content: center;
-  align-items: center; */
 }
 #signin__form__email {
   margin-bottom: 1.99rem;
@@ -109,19 +103,11 @@ body {
   min-width: 20.25rem;
   border: 2px solid #ebeaed;
   border-radius: 6.25rem;
-  /* color: rgba(21, 20, 57, 0.4);
-  font-size: 1.25rem;
-  line-height: 1.63rem;
-  /* font-family: "DM Sans"; */
-  /* font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500; */
 }
 #signin__form__email::placeholder {
   color: rgba(21, 20, 57, 0.4);
   font-size: 1.25rem;
   line-height: 1.63rem;
-  /* font-family: "DM Sans"; */
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
@@ -138,7 +124,6 @@ body {
   color: rgba(21, 20, 57, 0.4);
   font-size: 1.25rem;
   line-height: 1.63rem;
-  /* font-family: "DM Sans"; */
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
