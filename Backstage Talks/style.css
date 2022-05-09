@@ -1,0 +1,132 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #00c1b5;
+  transition: all 0.8s;
+}
+.header {
+  margin: 1.25rem 0 0 0.9rem;
+}
+.header-img {
+  max-width: 16.25rem;
+  max-height: 1.875rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.box__first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -1.125rem;
+}
+.magazine {
+  max-width: 26.25rem;
+  max-height: 33.25rem;
+}
+.first {
+}
+.first-line {
+  margin: 0 0 1.313rem 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #251d20;
+}
+.second-line {
+  margin: 0 0 1.125rem 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.second-line-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-line-link:hover {
+  text-decoration: underline;
+}
+.third-line {
+  margin: 0 0 1.45rem 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #251d20;
+}
+.last-line {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #251d20;
+}
+.third-line-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.third-line-link:hover {
+  text-decoration: underline;
+}
+.box {
+  margin-top: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 0.938rem;
+}
+.copyright {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #251d20;
+  padding-left: 0.938rem;
+}
+.copyright-link {
+  text-decoration: underline;
+  color: #251d20;
+}
+.copyright-link:hover {
+  text-decoration: none;
+}
+.footer__description {
+  max-width: 19.75rem;
+}
+.footer__description p {
+  margin: 0;
+  padding: 1.125rem 0.938rem 0 0.938rem;
+}
+.footer__nav {
+  margin: 1.875rem 0.938rem 0.938rem 0.938rem;
+  overflow: hidden;
+}
+
+.footer__nav a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #251d20;
+}
+.footer-link-left {
+  float: left;
+  text-align: center;
+  text-decoration: underline;
+}
+.footer-link-left:hover {
+  text-decoration: none;
+}
+.footer-link-right {
+  text-decoration: none;
+}
+.footer-link-right:hover {
+  text-decoration: underline;
+}
+.footer__nav-right {
+  float: right;
+}
